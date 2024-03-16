@@ -15,82 +15,137 @@ ul {
     gap: 26px;
 }
 
-/* Classes */
+strong {
+    font-size: larger;
+    font-weight: 900;
+}
 
-.footer,
-.header {
-    justify-content: space-between;
+/* Backgrounds Colors */
+    /* DarkBack-ground */
+.DBg {
     background-color: #1F2937;
 }
+    /* BlueBack-ground */
+.BBg {
+    background-color: #3882F6;
+}
+    /* GreyBack-ground */
+.GBg {
+    background-color: #E5E7EB;
+}
 
-.logo {
+/* Font Colors */
+    /* LightFont-color */
+.LFc {
     color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
 }
 
-.quote,
-.header {
-    display: flex;
-    align-items: center;
-    padding: 10px 250px;
-    padding-bottom: 125px
+.DFc {
+    color: #1F2937;
 }
 
-.footer,
-.titletext,
-.link {
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.title {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.titletext{
+/* Font Styles */
+    /* Contrast */
+.C {
     filter: contrast(.5);
 }
+    /* Italic */
+.I {
+    font-style: italic;
+}
+    /* Bold */
+.B {
+    font-weight: 900;
+}
 
-.Cta,
-.button {
-    background-color: #3882F6;
+/* Font Sizes */
+.XSFs {
+    font-size: 9px;
+}
+    /* SmallFont-size */
+.SFs {
+    font-size: 18px;
+}
+    /* AverageFont-size */
+.AFs {
+    font-size: 24px;
+}
+    /* LargeFont-size */
+.LFs {
+    font-size: 36px;
+}
+    /* eXtraLargeFont-size */
+.XLFs {
+    font-size: 48px;
+}
+
+/* Padding */
+    /* SmallPadding */
+.SP {
+    padding: 50px;
+}
+    /* LargePadding */
+.LP {
+    padding: 100px;
+}
+
+/* Flexbox */
+    /* FlexCenter */
+.FC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /* FlexWrap */
+.FW {
+    display: flex;
+    flex-wrap: wrap;
+}
+    /* FlexKeepSize */
+.FKS {
+    display: flex;
+    flex: 0 0 auto;
+}
+    /* FlexDirectionColumn */
+.FDC {
+    display: flex;
+    flex-direction: column;
+}
+/* Specifics */
+
+.header {
+    align-items: center;
+    display: flex;
+    padding: 10px 250px;
+    padding-bottom: 125px;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
 }
 
 .button {
     border-radius: 3px;
+    margin: 20px;
+    margin-left: 0px;
     max-width: fit-content;
     max-height: fit-content;
     padding: 8px 30px;
-    margin: 20px;
-    margin-left: 0px;
 }
 
 .image {
     background-color: rgb(160, 160, 160);
     border: double;
-    margin-left: 100px;
     height: 200px;
     width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
+    margin-left: 100px;
 }
 
 .infotext {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: bolder;
     margin: 50px;
     text-align: center;
 }
 
 .infobox {
-    display:flex;
-    justify-content: center;
     gap: 50px;
 }
 
@@ -103,49 +158,37 @@ ul {
 .illustration {
     border: double 2px #3882F6;
     border-radius: 12px;
-    display: flex;
-    flex: 0 0 auto;
 }
 
 .note {
-    font-size: 9px;
-    filter: contrast(.5);
     text-align: center;
     padding-top: 8px;
 }
 
-.quote {
-    flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 100px;
-}
-
-.qsign,
 .qtxt {
-    color: #1F2937;
-    font-size: 36px;
-}
-
-.qtxt {
-    font-style: italic;
     width: 900px;
 }
 
 .qsign {
+    margin-top: -100px;
+    padding-right: 150px;
     text-align: end;
-    align-self: flex-end;
-    font-weight: bold;
-    padding-right: 100px;
 }
 
-.CtA {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: double;
+.foot {
+    border-radius: 10px;
+    padding: 10px 100px;
+}
+
+.border {
+    border: 2px double;
+    border-radius: 10px;
+    margin: 10px 50px;
+    margin-left: 100px;
 }
 
 .footer {
     text-align: center;
     padding: 30px;
 }
+
